@@ -1,0 +1,1 @@
+dit is de container om data van hydronet te downloaden, en het om te zetten naar de juiste model input. Hiervoor heb je wel een hydronet token nodig.

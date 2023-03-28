@@ -1,0 +1,1 @@
+dit is de container die ik heb gebruikt om de post processing te kunnen doen. Deze moet je eerst uploaden naar docker (of die van mijn account gebruiken) zodat je deze vervolgens in azure kunt downloaden.

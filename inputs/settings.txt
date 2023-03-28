@@ -1,0 +1,23 @@
+# which model to use to get the ensemble forecast (models look 48 ahead and are created every 6 hours) YYYY/MM/DD_HH:MM:SS
+# when you start at hour 12 you have data from hour 13 until hour 48
+start_model_ensemble = 2022/08/17_06:00:00
+
+# For how many hours to get the ensemble forecast data. In hours
+duration_ensemble_forecast_data = 24
+
+
+# start time of model. YYYY/MM/DD_HH:MM:SS
+start_time_model = 2022/08/17_09:00:00
+
+# duration of model in hours
+duration_model = 12
+
+# folder to use as a base
+main_folder = /app/fedde-prepare-model/
+
+multiplication_rain = 2
+add_rain = 1
+
+# select the ensemble members you want to use
+ensembles_from = 40
+ensembles_to = 48

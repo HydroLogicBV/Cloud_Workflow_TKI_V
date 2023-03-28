@@ -1,0 +1,10 @@
+python -m pip freeze > requirements.txt
+
+
+docker build ...
+docker login ...
+docker push ...
+
+
+Je moet pywin32 even weghalen uit je requirements als die er in staat. Die doet het niet op linux. 
+
